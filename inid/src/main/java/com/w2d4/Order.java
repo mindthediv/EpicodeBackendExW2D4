@@ -23,4 +23,10 @@ public class Order extends HasId {
     public void setProducts(List<Product> products) {
         this.products = products;
     }
+
+    @Override
+    public String toString() {
+        return status + " " + customer.toString();
+       
+    }
 }

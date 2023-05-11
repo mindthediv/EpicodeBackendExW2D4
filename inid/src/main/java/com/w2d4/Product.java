@@ -19,4 +19,5 @@ public class Product  extends HasId {
         this.category = category;
         this.price = price;
     }
+ 
 }
